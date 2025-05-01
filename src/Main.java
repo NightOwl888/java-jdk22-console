@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+      System.out.println("::group::Random Output");
       java.util.Random r = new java.util.Random(42L);
       
       StringBuilder sb = new StringBuilder();
@@ -18,5 +19,6 @@ public class Main {
       }
     
       System.out.println(sb.toString());
+      System.out.println("\n::endgroup::");
     }
 }
