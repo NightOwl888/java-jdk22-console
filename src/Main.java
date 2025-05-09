@@ -5,7 +5,7 @@ public class Main {
       
       for (int i = 0; i < 64; i++)
       {
-        int value = r.nextInt(64);
+        int value = r.nextInt((int)Short.MAX_VALUE + 5);
         // Convert to hexadecimal with 16 digits, padding with leading zeros if necessary
         String hexValue = String.format("%08X", value);
 
